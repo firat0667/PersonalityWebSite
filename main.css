@@ -1,0 +1,139 @@
+html{
+    font-family: "Open Sans",sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0  0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+   background: #336ea2;
+   border-radius: 4px;
+}
+/*home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+
+}
+#home .name{
+    text-align: center;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#project{
+    color: #fff;
+    padding: 1rem;
+}
+#project .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#project .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+#project .items .item:hover{
+    
+    color: rgb(6, 248, 79);
+    opacity: 0.6;
+
+}
+h3{
+    padding-bottom: 1rem;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+#image{
+color: #333;
+padding:  1rem;
+
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+   
+    
+}
+.images .image{
+    float: left;
+    
+}
+
+    .image-info{
+    display: block;
+   
+    
+}
+.cv-image{
+    margin-right: 0.5rem;
+    position: relative;
+    margin-left: 0%;
+    
+}
+.images .cv-image span{
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+.image .image-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.instructor{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.rating{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}

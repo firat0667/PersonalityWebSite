@@ -1,0 +1,88 @@
+/* text*/
+
+.text-center{
+    text-align: center;
+
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+   
+}
+
+/*color*/
+.bg-darkblue{
+    background: #062e51;
+}
+.bg-light-blue{
+    background: #336ea2;
+
+}
+/*Container*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.my{
+    max-width: 100%;
+    width:  160px;
+    height: auto;
+    border-radius: 100%;  /* oval yaptık*/
+}
+/*button*/
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+.btn-primary:hover{
+    
+    color: #8fc1ec;
+    background: #000;
+    border: 0.5px solid #8fc1ec;
+    padding: 0.8rem 3rem;
+}
+.btn-dark{
+    margin-top: 1.25rem;
+    padding: 0.8rem 4rem;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    
+    background: #000;
+    color: #8fc1ec ;
+    
+}
+.btn-dark:hover{
+    color: #fff;
+   background: #336ea2;
+   border: 0.5px solid #333;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+.img1{
+    width: 500px;
+    height: auto;
+    margin-left: 0%;
+    border-radius: 10px;
+}
+.img2{
+    width: 500px;
+    height: 600px ;
+    margin-left: 0%;
+    border-radius: 10px;
+}
